@@ -1,0 +1,2 @@
+a= input("Enter the string: ")
+print('The new string is: ',a[-1]+a[1:-1]+a[0])
