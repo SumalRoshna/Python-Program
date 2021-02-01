@@ -1,0 +1,5 @@
+x= input("Enter the string: ")
+a= x[0]
+x= x.replace(a,'&')
+x= a+x[1:]
+print ("The ouput string is: ",x)
