@@ -1,0 +1,6 @@
+a= input("Enter the first string: ")
+b= input("Enter the second string: ")
+x= a[1]
+a= a.replace(a[1],b[1],1)
+b= b.replace(b[1],x,1)
+print("The new string is: ",a+' '+b)
