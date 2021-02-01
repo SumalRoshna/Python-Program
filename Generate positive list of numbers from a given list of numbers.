@@ -1,0 +1,6 @@
+a= [5,-9,-1,2,3,-4,6,0]
+b= []
+for num in a:
+  if num>=0:
+    b.append(num)
+print('List of positive numbers: ',b)
